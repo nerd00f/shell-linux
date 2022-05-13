@@ -1,23 +1,14 @@
-# mostra informações do sistema
-uname -a
-# mostra informações do usuario
-whoami
-# troca de usuario
-su - usuario
-# executar comando como super usuario
-sudo comando
-# mostra diretorio atual
-pwd
-# lista conteudo do diretorio
-ls
-# lista informações de arquivos
-ls -l
-# lista diretorios ocultos
-ls -a
-# listar arquivos ou diretorios especificos
-ls Desktop/*.pdf
-# buscar comando ja digitado
-# * atalho de teclado *
-CTRL + R
-# alterar diretorio
-cd arquivo
+# - - aula 2
+
+uname -a         #| mostra informações do sistema
+whoami           #| mostra informações do usuario
+su - usuario     #| troca de usuario
+sudo comando     #| executar comando como super usuario
+pwd              #| mostra diretorio atual
+ls               #| lista conteudo do diretorio
+ls -l            #| lista informações de arquivos
+ls -a            #| lista diretorios ocultos
+ls Desktop/*.pdf #| listar arquivos ou diretorios especificos
+CTRL + R         #| *atalho de teclado* buscar comando ja digitado 
+cd arquivo       #| alterar diretorio
+
