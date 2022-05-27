@@ -26,3 +26,10 @@ cp arquivo destino      #| copiar arquivo
 cp -r diretorio destino #| copiar diretorio
 mv arquivo arquivo_novo #| renomear arquivo
 rm -rf diretorio        #| remove um diretorio que tem arquivos
+
+# -- aula 4
+
+ls -lh                                #| mostra tamanho dos arquivos
+chmod (a g u)(+ - =)(r w x) (arquivo) #| altera permisões de usuarios
+chown usuario:grupo arquivo           #| altera o dono do arquivo
+man comando                           #| mostra manual do comandos
