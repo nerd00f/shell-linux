@@ -27,9 +27,31 @@ cp -r diretorio destino #| copiar diretorio
 mv arquivo arquivo_novo #| renomear arquivo
 rm -rf diretorio        #| remove um diretorio que tem arquivos
 
-# -- aula 4
+# - - aula 4
 
 ls -lh                                #| mostra tamanho dos arquivos
 chmod (a g u)(+ - =)(r w x) (arquivo) #| altera permisões de usuarios
 chown usuario:grupo arquivo           #| altera o dono do arquivo
-man comando                           #| mostra manual do comandos
+man comando                           #| mostra manual do comando
+
+# - - aula 5
+
+find caminho -name nome #| procurar por arquivos/pastas
+echo texto              #| exibe linha de texto
+# redirecionamento de entradas a saidas 
+# entrada    <
+# saida      >
+# concatenar >>
+# tubulações |
+grep texto caminho      #| procura um texto 
+apt install programa    #| usa o apt para instalar um programa
+tree arquivo            #| mostra sistemas de arquivos em forma de arvore
+ping                    #| ver se site ou pc esta conectado na internet
+ssh usuario@maquina     #| acesso remoto a outro computador
+nc ip porta             #| estabelece conexão pela internet
+tldr comando            #| mostra uso basico de comandos
+htop                    #| exibe processos abertos 
+top                     #| versão simples do htop
+vim                     #| editor de texto
+nano                    #| editor de texto
+gedit                   #| editor de texto
