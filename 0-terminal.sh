@@ -22,7 +22,7 @@ mv origem destino                     #| mover diretorios ou arquivos
 mv arquivo arquivo_novo               #| renomear arquivo
 cp arquivo destino                    #| copiar arquivo
 cp -r diretorio destino               #| copiar diretorio
-chmod (a g u)(+ - =)(r w x) (arquivo) #| altera permisões de usuarios
+chmod (+ - =)(r w x) (arquivo)        #| altera permisões de usuarios
 chown usuario:grupo arquivo           #| altera o dono do arquivo
 find caminho -name nome               #| procurar por arquivos/pastas
 echo texto                            #| exibe linha de texto
