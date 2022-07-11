@@ -37,17 +37,8 @@ tldr comando                          #| mostra uso basico de comandos
 htop                                  #| exibe processos abertos 
 top                                   #| versão simples do htop
 
-# - - editores de texto
+# - - redirecionamento de entradas a saidas 
 
-vim
-nano
-gedit
-
-# - - outras informações
-
-# atalho de teclado para buscar comando ja digitado: CTRL + R 
-#
-# redirecionamento de entradas a saidas 
 # entrada    <
 # saida      >
 # concatenar >>
